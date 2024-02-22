@@ -3,17 +3,21 @@
 Guía de conexión a Hack the box!
 
 Abrimos la web e iniciamos sesión con nustra cuenta
+
 ![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/9fbe9d26-02bc-49bc-ad0f-0b3ab4e5a96f)
 
 Luego nos vamos al apartado en la esquina superior derecha donde dice CONNECT TO HTB
 
 Seleccionamos el de nuestro interés, startingpoint o machines
+
 ![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/cfae33bb-3dc2-453c-b882-5ee3f7c9a3e9)
 
 Y descargamos el archivo para conectarnos por medio de openvpn
+
 ![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/3720b8f7-6806-4f39-aae6-442d8c5ea077)
 
 Ejecutamos el comando de openvpn en la terminal
+
 ![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/3a048aea-c539-43b1-b303-5b9b60978249)
 
 e iniciamos el escaneo de la primera maquina con NMAP
