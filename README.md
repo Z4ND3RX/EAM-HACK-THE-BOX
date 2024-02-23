@@ -34,4 +34,12 @@ y obtenemos la bandera
 
 ![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/2ee8e2a9-aa66-40ef-b951-da00e8a4e46c)
 
+MÁQUINA 2
 
+Escaneamos la IP
+
+![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/2145fb89-1470-475e-85db-84f9ed459872)
+
+Puertos abiertos: 21/tcp open, realizamos una conexión ftp hacia la máquina virtual y obtenemos la bandera
+
+![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/fe21d9af-eb83-4b44-8c25-98f54ebc1ccd)
