@@ -67,6 +67,10 @@ Hacemos un nmap a la IP
 
 Como Podemos presenciar, tiene los puertos 22, 80 y 3000 abiertos
 
+El acceso remoto a través del puerto 22 estaba habilitado mediante OpenSSH 8.9p1, una versión bastante reciente que sugiere una menor probabilidad de vulnerabilidades. Además, el puerto 80 estaba abierto con un servidor web Apache 2.4.52 que admite métodos comunes como GET, HEAD y POST, indicando la posibilidad de explorar más a fondo una aplicación web.
+
+El puerto 3000/tcp se encuentra activo y aloja una aplicación que utiliza el framework Node.js Express. Este hallazgo señala la presencia de un servidor web o una aplicación específica desarrollada con Node.js Express. La apertura de este puerto implica la accesibilidad de la aplicación a través de la red, indicando la utilización de Node.js como plataforma de desarrollo en el contexto de la seguridad de la información.
+
 Añadimos la máquina a nuestro archivo de hosts
 
 ![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/38c70d81-9dd7-4f56-a86c-32be2047617f)
@@ -89,6 +93,8 @@ Ahora procedemos a conectarnos por medio de ssh
 Empezamos a navegar por los directorios y encontramos un Usuario Joshua
 
 ![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/f7c43ee8-28a7-4dbf-ac49-901b10e66663)
+
+![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/7f2760f2-50c1-4a5e-a656-b4bc5833f33a)
 
 Inyectamos John e iniciamos sesión con el usuario Joshua (pass = Spongebob1)
 
