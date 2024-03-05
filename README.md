@@ -51,7 +51,81 @@ Nos conectamos a la VPN
 
 ![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/463e9c38-79ed-4296-a418-f287835f159a)
 
-Vamos a intentar la máquina Perfection
+______________________________________________________________________________________________________________
+                                        
+                                       -- CODIFY MACHINE --
+
+______________________________________________________________________________________________________________
+
+![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/4322b090-acf4-4bd2-aed4-fdba2b751252)
+
+Hacemos un nmap a la IP
+
+![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/cf79a7f2-aae8-4178-9060-fad23345f608)
+
+![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/21b061e9-1851-485b-b8f2-9b50725bc235)
+
+Como Podemos presenciar, tiene los puertos 22, 80 y 3000 abiertos
+
+Añadimos la máquina a nuestro archivo de hosts
+
+![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/38c70d81-9dd7-4f56-a86c-32be2047617f)
+
+Ingresamos a la web codify.htb
+
+![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/e6ecf9ed-6ce7-4fb8-a529-456228d12df1)
+
+Nos creamos una llave ssh para intentar inyectar código por medio del campo de texto
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCqaNdrDldr4xtmJAhhS23bKk00xUniBNfjfnuMlYtjdTdclWHmA612HsqcQUtu998dEmSKOprfWIyJqFhuRhtVSHnuYZSLg+cFkoTPMbaZoChbZH1hTyhx8S9KP8a+FyDyhpLwWtBzIh4QeOLrruA7r/YCeyDnX/eWA7+5S8AxaA6xgPhbhtLjoUVhzk88HKYGpykJBZFL+…..
+
+Inyectamos nuestra ssh a la máquina
+
+![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/67a3b637-908d-4330-b14c-0a3712cf5447)
+
+Ahora procedemos a conectarnos por medio de ssh
+
+![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/8b2e72cc-784c-403c-a93b-7cc7456fd123)
+
+Empezamos a navegar por los directorios y encontramos un Usuario Joshua
+
+![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/f7c43ee8-28a7-4dbf-ac49-901b10e66663)
+
+Inyectamos John e iniciamos sesión con el usuario Joshua (pass = Spongebob1)
+
+![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/b17af1a0-7ae2-4d4a-972e-468273c86bcf)
+
+![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/ce66e2b0-2fcc-4b8e-b999-8b728ef31961)
+
+Y obtenemos la primera flag 3c717fed1bc3e958ea89ce0d43fae965
+
+![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/b0f8f81b-4019-49e2-832a-e11fecccc278)
+
+MOMENTO DE ESCALAR PRIVILEGIOS desde el usuario Joshua
+
+![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/323f45f1-a49a-4cab-8e31-be01c925bbd3)
+
+Nos creamos un script y lo ejecutamos para obtener la contraseña root
+
+![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/51520f00-ec39-48d6-a293-31bb4cf9a9c8)
+
+![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/3c4f22b4-8d22-41fa-991c-e8bf900e78ae)
+
+Finalmente la encontramos e iniciamos sesión como root
+
+![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/e18d5455-59dd-4299-bb9e-56a1ae34e71a)
+
+ Y obtenemos la Segunda bandera 8558ae9d77f91a58878bb2472703142e
+
+ Y obtenemos la Segunda bandera 
+8558ae9d77f91a58878bb2472703142e
+
+![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/c3e2ad27-0d79-4e74-8256-42f5d53d683b)
+
+__________________________________________________________________________________________________________________________________
+
+                                              Vamos a intentar la máquina Perfection
+
+___________________________________________________________________________________________________________________________________
 
 ![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/6dc2ac63-2ff3-4fb4-b0a6-cfe3ce2a2d0a)
 
