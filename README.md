@@ -141,6 +141,7 @@ Realizamos un escaneo
 
 Descubrimos que están abiertos los puertos 80 y 22 con tcp
 
+
 ![image](https://github.com/Z4ND3RX/EAM-HACK-THE-BOX/assets/106892676/55cef463-5a03-497e-a20a-0e64dbadde9b)
 
 Deducimos que por el puerto 80 se posee un servicio web e intentamos entrar por medio de un navegador
